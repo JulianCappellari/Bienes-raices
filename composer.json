@@ -1,0 +1,21 @@
+{
+    "name": "julian/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
